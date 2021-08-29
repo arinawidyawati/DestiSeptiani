@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="416dp"
+        android:layout_height="734dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/android___12" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/user_icon_trendy_flat_style_260nw_418179856__2_" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Admin"
+        android:textColor="#443f3f"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="412dp"
+        android:text="Menu Utama"
+        android:textColor="#443f3f"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        app:srcCompat="@drawable/biodata_curriculum_vitae_vector_icon_which_can_easily_modify_edit_biodata_curriculum_vitae_vector_icon_which_can_easily_modify_157790721" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:srcCompat="@drawable/download__2_" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView18"
+        app:srcCompat="@drawable/download__1_" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        app:srcCompat="@drawable/proses_cara_membuat_ektp" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14"
+        app:srcCompat="@drawable/kisspng_computer_icons_download_report_icon_5b17a89a433ec5_6629332115282771462755" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15"
+        app:srcCompat="@drawable/kisspng_computer_icons_scalable_vector_graphics_report_enc_5bfc6e3053e963_6153180415432699363437" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="200dp"
+        android:text="Identitas Diri"
+        android:textColor="#443f3f"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="10dp"
+        android:text="Kartu Bukti"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView18" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="200dp"
+        android:text="Cetak Kartu"
+        android:textColor="#443f3f"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="10dp"
+        android:text="Keluhan"
+        android:textColor="#443f3f"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="200dp"
+        android:text="Lp. Kesehatan"
+        android:textColor="#443f3f"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView19" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="10dp"
+        android:text="Lp. Kesejahteraan"
+        android:textColor="#443f3f"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView18"
+        app:layout_constraintTop_toBottomOf="@+id/imageView20" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
